@@ -17,6 +17,8 @@ The parsing data problem took me a while because I couldnt figure out why the in
 
 The Duplicate issue was one that really stumped me, mostly because every time I tried to implement duplicate checking to reduce cover redundancy, it would influence the output and make it incorrect. I could never get a solution that was both correct and rid of duplicates, so between the two, I'd rather be correct and have duplicates.
 
+Below is the basic verification of functionality. It shows the correct output but still has duplicate covers.
+
 ![Basic_verification_of_Functionality](https://github.com/user-attachments/assets/55f3566c-2b27-4518-9a74-f210a8d154ea)
 
 

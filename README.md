@@ -6,3 +6,5 @@ Inputs (.i) = # of bits,
 3 inputs = 8,
 4 inputs = 16,
 etc.
+
+Input4.pla = input file, Input4_minimized.pla = output file, Input4_terminal_output = terminal debugging output.

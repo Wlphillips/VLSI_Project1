@@ -1,0 +1,48 @@
+Reading input file: input32.pla
+Debug: Parsing line: 00000 1, parts: ['00000', '1']
+Debug: Parsing line: 00001 0, parts: ['00001', '0']
+Debug: Skipped term: 00001 because output is 0
+Debug: Parsing line: 00010 1, parts: ['00010', '1']
+Debug: Parsing line: 00011 1, parts: ['00011', '1']
+Debug: Parsing line: 00100 1, parts: ['00100', '1']
+Debug: Parsing line: 00101 1, parts: ['00101', '1']
+Debug: Parsing line: 00110 1, parts: ['00110', '1']
+Debug: Parsing line: 00111 0, parts: ['00111', '0']
+Debug: Skipped term: 00111 because output is 0
+Debug: Parsing line: 01000 1, parts: ['01000', '1']
+Debug: Parsing line: 01001 1, parts: ['01001', '1']
+Debug: Parsing line: 01010 1, parts: ['01010', '1']
+Debug: Parsing line: 01011 1, parts: ['01011', '1']
+Debug: Parsing line: 01100 1, parts: ['01100', '1']
+Debug: Parsing line: 01101 0, parts: ['01101', '0']
+Debug: Skipped term: 01101 because output is 0
+Debug: Parsing line: 01110 1, parts: ['01110', '1']
+Debug: Parsing line: 01111 1, parts: ['01111', '1']
+Debug: Parsing line: 10000 1, parts: ['10000', '1']
+Debug: Parsing line: 10001 1, parts: ['10001', '1']
+Debug: Parsing line: 10010 1, parts: ['10010', '1']
+Debug: Parsing line: 10011 0, parts: ['10011', '0']
+Debug: Skipped term: 10011 because output is 0
+Debug: Parsing line: 10100 1, parts: ['10100', '1']
+Debug: Parsing line: 10101 1, parts: ['10101', '1']
+Debug: Parsing line: 10110 1, parts: ['10110', '1']
+Debug: Parsing line: 10111 1, parts: ['10111', '1']
+Debug: Parsing line: 11000 1, parts: ['11000', '1']
+Debug: Parsing line: 11001 0, parts: ['11001', '0']
+Debug: Skipped term: 11001 because output is 0
+Debug: Parsing line: 11010 1, parts: ['11010', '1']
+Debug: Parsing line: 11011 1, parts: ['11011', '1']
+Debug: Parsing line: 11100 1, parts: ['11100', '1']
+Debug: Parsing line: 11101 1, parts: ['11101', '1']
+Debug: Parsing line: 11110 0, parts: ['11110', '0']
+Debug: Skipped term: 11110 because output is 0
+Debug: Parsing line: 11111 1, parts: ['11111', '1']
+Debug: Final minterms: ['00000', '00010', '00011', '00100', '00101', '00110', '01000', '01001', '01010', '01011', '01100', '01110', '01111', '10000', '10001', '10010', '10100', '10101', '10110', '10111', '11000', '11010', '11011', '11100', '11101', '11111']
+Debug: Initial minterms: ['00000', '00010', '00011', '00100', '00101', '00110', '01000', '01001', '01010', '01011', '01100', '01110', '01111', '10000', '10001', '10010', '10100', '10101', '10110', '10111', '11000', '11010', '11011', '11100', '11101', '11111']
+Debug: Grouped terms: {0: ['00000'], 1: ['00010', '00100', '01000', '10000'], 2: ['00011', '00101', '00110', '01001', '01010', '01100', '10001', '10010', '10100', '11000'], 3: ['01011', '01110', '10101', '10110', '11010', '11100'], 4: ['01111', '10111', '11011', '11101'], 5: ['11111']}
+Debug: Prime implicants: set()
+Debug: Prime implicants: set()
+Debug: Prime implicants: {'-010-', '1-1-1', '101--', '0-01-', '010--', '01-1-', '1-10-', '-1-11', '10-0-', '-101-'}
+Debug: Prime implicants: {'-010-', '1-1-1', '101--', '-0--0', '0-01-', '010--', '0---0', '01-1-', '1-10-', '---00', '-1-11', '10-0-', '--0-0', '-101-'}
+Minimized terms: ['---00', '--0-0', '-0--0', '-010-', '-1-11', '-101-', '0---0', '0-01-', '01-1-', '010--', '1-1-1', '1-10-', '10-0-', '101--']
+Minimized logic written to input32_minimized.pla

@@ -1,0 +1,13 @@
+Reading input file: input4.pla
+Debug: Parsing line: 00 1, parts: ['00', '1']
+Debug: Parsing line: 01 0, parts: ['01', '0']
+Debug: Skipped term: 01 because output is 0
+Debug: Parsing line: 10 1, parts: ['10', '1']
+Debug: Parsing line: 11 1, parts: ['11', '1']
+Debug: Final minterms: ['00', '10', '11']
+Debug: Initial minterms: ['00', '10', '11']
+Debug: Grouped terms: {0: ['00'], 1: ['10'], 2: ['11']}
+Debug: Prime implicants: set()
+Debug: Prime implicants: {'1-', '-0'}
+Minimized terms: ['-0', '1-']
+Minimized logic written to input4_minimized.pla

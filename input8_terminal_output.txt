@@ -1,0 +1,20 @@
+Reading input file: input8.pla
+Debug: Parsing line: 000 0, parts: ['000', '0']
+Debug: Skipped term: 000 because output is 0
+Debug: Parsing line: 001 1, parts: ['001', '1']
+Debug: Parsing line: 010 0, parts: ['010', '0']
+Debug: Skipped term: 010 because output is 0
+Debug: Parsing line: 011 0, parts: ['011', '0']
+Debug: Skipped term: 011 because output is 0
+Debug: Parsing line: 100 1, parts: ['100', '1']
+Debug: Parsing line: 101 1, parts: ['101', '1']
+Debug: Parsing line: 110 0, parts: ['110', '0']
+Debug: Skipped term: 110 because output is 0
+Debug: Parsing line: 111 1, parts: ['111', '1']
+Debug: Final minterms: ['001', '100', '101', '111']
+Debug: Initial minterms: ['001', '100', '101', '111']
+Debug: Grouped terms: {0: [], 1: ['001', '100'], 2: ['101'], 3: ['111']}
+Debug: Prime implicants: set()
+Debug: Prime implicants: {'1-1', '-01', '10-'}
+Minimized terms: ['-01', '1-1', '10-']
+Minimized logic written to input8_minimized.pla

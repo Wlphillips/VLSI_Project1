@@ -1,0 +1,31 @@
+Reading input file: input16.pla
+Debug: Parsing line: 0000 0, parts: ['0000', '0']
+Debug: Skipped term: 0000 because output is 0
+Debug: Parsing line: 0001 1, parts: ['0001', '1']
+Debug: Parsing line: 0010 0, parts: ['0010', '0']
+Debug: Skipped term: 0010 because output is 0
+Debug: Parsing line: 0011 0, parts: ['0011', '0']
+Debug: Skipped term: 0011 because output is 0
+Debug: Parsing line: 0100 1, parts: ['0100', '1']
+Debug: Parsing line: 0101 1, parts: ['0101', '1']
+Debug: Parsing line: 0110 1, parts: ['0110', '1']
+Debug: Parsing line: 0111 0, parts: ['0111', '0']
+Debug: Skipped term: 0111 because output is 0
+Debug: Parsing line: 1000 1, parts: ['1000', '1']
+Debug: Parsing line: 1001 1, parts: ['1001', '1']
+Debug: Parsing line: 1010 1, parts: ['1010', '1']
+Debug: Parsing line: 1011 0, parts: ['1011', '0']
+Debug: Skipped term: 1011 because output is 0
+Debug: Parsing line: 1100 0, parts: ['1100', '0']
+Debug: Skipped term: 1100 because output is 0
+Debug: Parsing line: 1101 1, parts: ['1101', '1']
+Debug: Parsing line: 1110 1, parts: ['1110', '1']
+Debug: Parsing line: 1111 1, parts: ['1111', '1']
+Debug: Final minterms: ['0001', '0100', '0101', '0110', '1000', '1001', '1010', '1101', '1110', '1111']
+Debug: Initial minterms: ['0001', '0100', '0101', '0110', '1000', '1001', '1010', '1101', '1110', '1111']
+Debug: Grouped terms: {0: [], 1: ['0001', '0100', '1000'], 2: ['0101', '0110', '1001', '1010'], 3: ['1101', '1110'], 4: ['1111']}
+Debug: Prime implicants: set()
+Debug: Prime implicants: {'-110', '1-10', '11-1', '111-', '01-0', '010-', '100-', '10-0'}
+Debug: Prime implicants: {'-110', '1-10', '11-1', '--01', '111-', '01-0', '010-', '100-', '10-0'}
+Minimized terms: ['--01', '-110', '01-0', '010-', '1-10', '10-0', '100-', '11-1', '111-']
+Minimized logic written to input16_minimized.pla
